@@ -1,1 +1,42 @@
+Dashboard link: https://us-east-1.online.tableau.com/#/site/a01732146-557faf2c59/workbooks/3512530?:origin=card_share_link
+Tool used: Tableau (interactive web dashboard)
 
+Goal
+
+Communicate key findings from the cleaned + API-enriched dataset and show how they inform decisions.
+
+Data used (inputs)
+
+Cleaned base: standardized headers/types, fixed missing values, split multi-country cells, removed “Unknown/US” where out of scope.
+
+API enrichment: country-level Population and Internet % joined to the dataset.
+
+What’s in the dashboard
+
+Map – Workshops by Country.
+
+Color by Workshops.
+
+Table/Bar – Workshops by Income Level & Country
+
+Treemap – Category Mix
+
+Interactions: global filters (Country, Date, Category, Income Level). Selecting a tier highlights countries on the map.
+
+Key insights (example findings)
+
+Geographic concentration: A few LATAM markets contribute most workshops (e.g., Colombia, Perú, México, El Salvador).
+
+Income-tier balance: Upper-middle-income countries dominate volume; per-capita view surfaces under-served lower-income markets.
+
+Category mix: A small set of categories (e.g., Educación) account for the majority of events.
+
+Decisions this can inform
+
+Market prioritization: Double-down on proven countries; pilot in low-served but strategic markets (identified by per-capita gap and Internet %).
+
+Equity & access: Set targets/OKRs for lower-income tiers; adjust pricing/scholarships accordingly.
+
+Content roadmap: Scale top categories across similar countries; prune or redesign low-impact themes.
+
+Operational planning: Allocate trainers/partners and travel around hubs; cluster nearby countries to reduce cost.
